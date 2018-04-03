@@ -125,7 +125,6 @@ class Vehicle {
 		let desired = target.sub(this.position);
 
 		desired.setMag(this.maxSpeed);
-  //this line of code above that is commented out is what I need help fixing
 
   let steer = desired.sub(this.velocity);
 
